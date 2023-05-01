@@ -1,3 +1,8 @@
+package Interfaces;
+
+import Model.ListToys;
+import Model.Toy;
+
 import java.util.Random;
 
 public interface GetToys {

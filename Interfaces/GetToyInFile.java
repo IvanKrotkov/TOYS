@@ -1,4 +1,7 @@
-import java.io.File;
+package Interfaces;
+
+import Model.Toy;
+
 import java.io.FileWriter;
 import java.io.IOException;
 

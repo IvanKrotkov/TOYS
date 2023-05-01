@@ -1,7 +1,14 @@
+package Presenter;
+
+import Model.ListToys;
+import Model.Toy;
+import Interfaces.*;
+import View.*;
+
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Presenter implements View,GetToys,GetToyInFile{
+public class Presenter implements View, GetToys, GetToyInFile {
     private ListToys<Toy> toys = getToys();
 
     @Override

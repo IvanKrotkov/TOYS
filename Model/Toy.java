@@ -1,3 +1,4 @@
+package Model;
 
 public class Toy {
     private Identificate id;
